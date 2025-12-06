@@ -1,0 +1,6 @@
+C:\visualStudio\Authorisation\Hasher\bin\Debug\Hasher.dll
+C:\visualStudio\Authorisation\Hasher\bin\Debug\Hasher.pdb
+C:\visualStudio\Authorisation\Hasher\obj\Debug\Hasher.csproj.AssemblyReference.cache
+C:\visualStudio\Authorisation\Hasher\obj\Debug\Hasher.csproj.CoreCompileInputs.cache
+C:\visualStudio\Authorisation\Hasher\obj\Debug\Hasher.dll
+C:\visualStudio\Authorisation\Hasher\obj\Debug\Hasher.pdb

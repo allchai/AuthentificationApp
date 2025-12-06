@@ -1,0 +1,8 @@
+1. allchai
+2. 1419a0c521daa3c3633f9e779851bee5737263b26fa906018de2d405dea3512f
+3. Программист C#
+1. max10
+2. d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1
+3. Программист C#
+Password: pass
+Hashed password: d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1
