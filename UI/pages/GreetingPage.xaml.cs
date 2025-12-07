@@ -18,9 +18,6 @@ using UI.classes;
 
 namespace UI.pages
 {
-    /// <summary>
-    /// Interaction logic for GreetingPage.xaml
-    /// </summary>
     public partial class GreetingPage : Page
     {
         private Dictionary<DayPart, string> _greetingString = new Dictionary<DayPart, string>()

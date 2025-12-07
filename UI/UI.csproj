@@ -75,6 +75,7 @@
     <Compile Include="classes\Occupation.cs" />
     <Compile Include="classes\TimeManager.cs" />
     <Compile Include="classes\User.cs" />
+    <Compile Include="classes\UsersList.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
