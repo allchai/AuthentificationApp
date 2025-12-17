@@ -41,14 +41,14 @@ namespace UI.pages
 
         private void GoAuthorisationPage(object sender, RoutedEventArgs e)
         {
-            if (TimeManager.IsWorkHour() == false)
-            {
-                txtblError.Visibility = Visibility.Visible;
-                return;
-            }
+            //if (TimeManager.IsWorkHour() == false)
+            //{
+            //    txtblError.Visibility = Visibility.Visible;
+            //    return;
+            //}
 
-            NavigationService.Navigate(new AuthorisationPage());
-            //NavigationService.Navigate(new AdminPanel());
+            //NavigationService.Navigate(new AuthorisationPage());
+            NavigationService.Navigate(new AdminPanel());
         }
     }
 }

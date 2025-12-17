@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\visualStudio\\Authorisation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|C:\\visualStudio\\Authorisation\\ui\\pages\\greetingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\pages\\greetingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|C:\\visualStudio\\Authorisation\\ui\\pages\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\pages\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\pages\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|C:\\visualStudio\\Authorisation\\ui\\pages\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\pages\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\classes\\userslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\classes\\userslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\pages\\greetingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\pages\\greetingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\pages\\authorisationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\pages\\authorisationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\classes\\errormessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\classes\\errormessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\classes\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\classes\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +42,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorMessage.cs",
+              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\classes\\ErrorMessage.cs",
+              "RelativeDocumentMoniker": "UI\\classes\\ErrorMessage.cs",
+              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\classes\\ErrorMessage.cs",
+              "RelativeToolTip": "UI\\classes\\ErrorMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:22:55.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\classes\\DataBase.cs",
+              "RelativeDocumentMoniker": "UI\\classes\\DataBase.cs",
+              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\classes\\DataBase.cs",
+              "RelativeToolTip": "UI\\classes\\DataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:11:14.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\App.xaml",
+              "RelativeDocumentMoniker": "UI\\App.xaml",
+              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\App.xaml",
+              "RelativeToolTip": "UI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-17T09:57:04.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AdminPanel.xaml.cs",
+              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\pages\\AdminPanel.xaml.cs",
+              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml.cs",
+              "RelativeToolTip": "UI\\pages\\AdminPanel.xaml.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAswHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:08:47.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AdminPanel.xaml",
               "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml",
               "RelativeDocumentMoniker": "UI\\pages\\AdminPanel.xaml",
@@ -42,41 +109,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "AuthorisationPage.xaml.cs",
+              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\pages\\AuthorisationPage.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\pages\\AuthorisationPage.xaml.cs",
+              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\pages\\AuthorisationPage.xaml.cs",
+              "RelativeToolTip": "UI\\pages\\AuthorisationPage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:32:39.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GreetingPage.xaml.cs",
               "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\pages\\GreetingPage.xaml.cs",
               "RelativeDocumentMoniker": "UI\\pages\\GreetingPage.xaml.cs",
               "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\pages\\GreetingPage.xaml.cs",
               "RelativeToolTip": "UI\\pages\\GreetingPage.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvzIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T16:34:59.498Z",
+              "WhenOpened": "2025-12-17T10:47:22.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersList.cs",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\classes\\UsersList.cs",
-              "RelativeDocumentMoniker": "UI\\classes\\UsersList.cs",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\classes\\UsersList.cs",
-              "RelativeToolTip": "UI\\classes\\UsersList.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAQwC4AAABDAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\classes\\User.cs",
+              "RelativeDocumentMoniker": "UI\\classes\\User.cs",
+              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\classes\\User.cs",
+              "RelativeToolTip": "UI\\classes\\User.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA/wBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T14:53:34.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminPanel.xaml.cs",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml.cs",
-              "RelativeDocumentMoniker": "UI\\pages\\AdminPanel.xaml.cs",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml.cs",
-              "RelativeToolTip": "UI\\pages\\AdminPanel.xaml.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAcwGIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T07:08:47.485Z",
+              "WhenOpened": "2025-12-17T09:45:12.973Z",
               "EditorCaption": ""
             }
           ]

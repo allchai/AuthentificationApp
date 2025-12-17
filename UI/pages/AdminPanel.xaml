@@ -105,5 +105,8 @@
             </Button>
         </StackPanel>
 
+        <StackPanel x:Name="ErrorMessagePanel" Width="225" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="15 10 10 10" Visibility="Collapsed">
+        </StackPanel>
+        
     </Grid>
 </Page>

@@ -2,11 +2,6 @@
 using UI.classes;
 using System.Windows;
 using System.Windows.Media;
-using HasherLib;
-using UI.model;
-using System.Collections.Generic;
-using System.Linq;
-using System.IO;
 using System.Windows.Threading;
 using System;
 
@@ -45,7 +40,7 @@ namespace UI.pages
             ShowCaptcha(_captcha.Generate(_captchaLength));
 
             _banTimer.Tick += new EventHandler(BanTimerTick);
-            _banTimer.Interval = new TimeSpan(0, 0, 30);
+            _banTimer.Interval = TimeSpan.FromSeconds(1);
         }
 
         private void ShowCaptcha(string captchaString)
