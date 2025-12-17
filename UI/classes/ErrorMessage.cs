@@ -8,16 +8,15 @@ namespace UI.classes
         public StackPanel View { get; set; }
         public int TimeRemaining { get; set; }
 
-        public static StackPanel CreateView(string text)
+        public ErrorMessage(string message)
         {
-            StackPanel panel = new StackPanel();
-            panel.Style = Application.Current.FindResource("ErrorMessage") as Style;
+            View = new StackPanel();
+            View.Style = Application.Current.FindResource("ErrorMessage") as Style;
             TextBlock textBlock = new TextBlock();
             textBlock.Style = Application.Current.FindResource("ErrorText") as Style;
-            textBlock.Text = text;
-            panel.Children.Add(textBlock);
-
-            return panel;
+            textBlock.Text = message;
+            View.Children.Add(textBlock);
+            TimeRemaining = 5;
         }
     }
 }

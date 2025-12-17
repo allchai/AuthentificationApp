@@ -73,6 +73,8 @@
     <Compile Include="classes\Captcha.cs" />
     <Compile Include="classes\DataBase.cs" />
     <Compile Include="classes\ErrorMessage.cs" />
+    <Compile Include="classes\ErrorMessageManager.cs" />
+    <Compile Include="classes\ErrorStrings.cs" />
     <Compile Include="classes\Occupation.cs" />
     <Compile Include="classes\TimeManager.cs" />
     <Compile Include="classes\User.cs" />

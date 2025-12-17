@@ -5,6 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using UI.classes;
 using System.Windows.Threading;
+using ValidationResult = System.ComponentModel.DataAnnotations.ValidationResult;
 
 namespace UI.pages
 {
@@ -12,8 +13,8 @@ namespace UI.pages
     {
         private UsersList _usersList;
         private User _currentEditedUser;
-        private List<ErrorMessage> _errorMessages;
         private DispatcherTimer _errorMessageTimer;
+        private ErrorMessageManager _errorMessageManager;
         public AdminPanel()
         {
             InitializeComponent();
@@ -26,7 +27,6 @@ namespace UI.pages
             _usersList.UpdateList();
             UsersListView.ItemsSource = _usersList.List;
             cmbbxFilter.ItemsSource = _usersList.GetAllOccupations();
-            _errorMessages = new List<ErrorMessage>();
 
             _errorMessageTimer = new DispatcherTimer();
             _errorMessageTimer.Tick += new EventHandler(ErrorMessageTick);
@@ -79,48 +79,32 @@ namespace UI.pages
 
         private bool Validation(User user)
         {
-            List<System.ComponentModel.DataAnnotations.ValidationResult> results = User.Validate(user);
-            
-            foreach (System.ComponentModel.DataAnnotations.ValidationResult result in results)
+            List<ValidationResult> validationResults = user.Validate();
+
+            if (validationResults.Count > 0)
             {
-                ErrorMessage message = new ErrorMessage()
+                _errorMessageManager = new ErrorMessageManager();
+                foreach (ValidationResult validationResult in validationResults)
                 {
-                    View = ErrorMessage.CreateView(result.ErrorMessage),
-                    TimeRemaining = 5
-                };
-
-                _errorMessages.Add(message);
-                ErrorMessagePanel.Children.Add(message.View);
-            }
-
-            if (results.Count > 0)
-            {
-                ErrorMessagePanel.Visibility = Visibility.Visible;
+                    ErrorMessage errorMessage = new ErrorMessage(validationResult.ErrorMessage);
+                    _errorMessageManager.Add(errorMessage);
+                    ErrorMessagePanel.Children.Add(errorMessage.View);
+                }
                 _errorMessageTimer.Start();
+                ErrorMessagePanel.Visibility = Visibility.Visible;
+                return false;
             }
-
-            return results.Count == 0 ? true : false;
+            else
+                return true;
         }
 
         private void ErrorMessageTick(object sender, EventArgs e)
         {
-            List<ErrorMessage> toRemove = new List<ErrorMessage>();
+            List<StackPanel> toRemove = _errorMessageManager.Tick();
+            foreach (StackPanel panel in toRemove)
+                ErrorMessagePanel.Children.Remove(panel);
 
-            foreach (ErrorMessage message in _errorMessages)
-            {
-                message.TimeRemaining -= 1;
-
-                if (message.TimeRemaining <= 0)
-                    toRemove.Add(message);
-            }
-
-            foreach (ErrorMessage message in toRemove)
-            {
-                ErrorMessagePanel.Children.Remove(message.View);
-                _errorMessages.Remove(message);
-            }
-
-            if (_errorMessages.Count == 0)
+            if (ErrorMessagePanel.Children.Count == 0)
             {
                 ErrorMessagePanel.Visibility = Visibility.Collapsed;
                 _errorMessageTimer.Stop();
@@ -132,7 +116,7 @@ namespace UI.pages
             _currentEditedUser = null;
             UserEditor.Visibility = Visibility.Collapsed;
             _errorMessageTimer.Stop();
-            _errorMessages = new List<ErrorMessage>();
+            _errorMessageManager.Clear();
             ErrorMessagePanel.Visibility = Visibility.Collapsed;
         }
 
