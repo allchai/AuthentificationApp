@@ -13,8 +13,8 @@ namespace UI.pages
     {
         private UsersList _usersList;
         private User _currentEditedUser;
-        private DispatcherTimer _errorMessageTimer;
-        private ErrorMessageManager _errorMessageManager;
+        private DispatcherTimer _notificationTimer;
+        private NotificationManager _notificationManager;
         public AdminPanel()
         {
             InitializeComponent();
@@ -27,10 +27,12 @@ namespace UI.pages
             _usersList.UpdateList();
             UsersListView.ItemsSource = _usersList.List;
             cmbbxFilter.ItemsSource = _usersList.GetAllOccupations();
+            _notificationManager = new NotificationManager();
 
-            _errorMessageTimer = new DispatcherTimer();
-            _errorMessageTimer.Tick += new EventHandler(ErrorMessageTick);
-            _errorMessageTimer.Interval = TimeSpan.FromSeconds(1);
+            _notificationTimer = new DispatcherTimer();
+            _notificationTimer.Tick += new EventHandler(ErrorMessageTick);
+            _notificationTimer.Interval = TimeSpan.FromSeconds(1);
+
         }
 
         public void EditUser(object sender, MouseButtonEventArgs e)
@@ -50,6 +52,8 @@ namespace UI.pages
             cmbbxOccupation.SelectedValue = _currentEditedUser.Occupation;
 
             UserEditor.Visibility = Visibility.Visible;
+            NotificationPanel.Visibility = Visibility.Visible;
+            _notificationTimer.Start();
         }
 
         private void SaveChanges(object sender, RoutedEventArgs e)
@@ -81,43 +85,30 @@ namespace UI.pages
         {
             List<ValidationResult> validationResults = user.Validate();
 
-            if (validationResults.Count > 0)
-            {
-                _errorMessageManager = new ErrorMessageManager();
-                foreach (ValidationResult validationResult in validationResults)
-                {
-                    ErrorMessage errorMessage = new ErrorMessage(validationResult.ErrorMessage);
-                    _errorMessageManager.Add(errorMessage);
-                    ErrorMessagePanel.Children.Add(errorMessage.View);
-                }
-                _errorMessageTimer.Start();
-                ErrorMessagePanel.Visibility = Visibility.Visible;
-                return false;
-            }
-            else
-                return true;
+            foreach (ValidationResult result in validationResults)
+                _notificationManager.Add(new Notification(result.ErrorMessage));
+
+            return validationResults.Count == 0;
         }
 
         private void ErrorMessageTick(object sender, EventArgs e)
         {
-            List<StackPanel> toRemove = _errorMessageManager.Tick();
-            foreach (StackPanel panel in toRemove)
-                ErrorMessagePanel.Children.Remove(panel);
+            foreach (Notification notification in _notificationManager.Notifications)
+                if (NotificationPanel.Children.Contains(notification.View) == false)
+                    NotificationPanel.Children.Add(notification.View);
 
-            if (ErrorMessagePanel.Children.Count == 0)
-            {
-                ErrorMessagePanel.Visibility = Visibility.Collapsed;
-                _errorMessageTimer.Stop();
-            }
+            var toRemove = _notificationManager.Tick();
+            foreach (StackPanel notificationView in toRemove)
+                NotificationPanel.Children.Remove(notificationView);
         }
 
         private void CancelEdit(object sender, RoutedEventArgs e)
         {
             _currentEditedUser = null;
             UserEditor.Visibility = Visibility.Collapsed;
-            _errorMessageTimer.Stop();
-            _errorMessageManager.Clear();
-            ErrorMessagePanel.Visibility = Visibility.Collapsed;
+            _notificationTimer.Stop();
+            NotificationPanel.Visibility = Visibility.Collapsed;
+
         }
 
         private void Return(object sender, RoutedEventArgs e)

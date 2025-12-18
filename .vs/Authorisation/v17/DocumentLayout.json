@@ -3,35 +3,15 @@
   "WorkspaceRootPath": "C:\\visualStudio\\Authorisation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|C:\\visualStudio\\Authorisation\\ui\\classes\\errormessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\classes\\errormessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|C:\\visualStudio\\Authorisation\\ui\\pages\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\pages\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\pages\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\classes\\errorstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\classes\\errorstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\classes\\errormessagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\classes\\errormessagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|C:\\visualStudio\\Authorisation\\ui\\pages\\greetingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\pages\\greetingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|C:\\visualStudio\\Authorisation\\ui\\pages\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|c:\\visualstudio\\authorisation\\ui\\pages\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{84EFCD6D-2C6A-4BBC-A344-41E5FB5AA439}|UI\\UI.csproj|solutionrelative:ui\\pages\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -42,57 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\MainWindow.xaml",
-              "RelativeToolTip": "UI\\MainWindow.xaml",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\App.xaml",
+              "RelativeDocumentMoniker": "UI\\App.xaml",
+              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\App.xaml",
+              "RelativeToolTip": "UI\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-17T14:10:30.053Z",
+              "WhenOpened": "2025-12-18T09:01:19.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ErrorStrings.cs",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\classes\\ErrorStrings.cs",
-              "RelativeDocumentMoniker": "UI\\classes\\ErrorStrings.cs",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\classes\\ErrorStrings.cs",
-              "RelativeToolTip": "UI\\classes\\ErrorStrings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T13:25:48.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorMessageManager.cs",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\classes\\ErrorMessageManager.cs",
-              "RelativeDocumentMoniker": "UI\\classes\\ErrorMessageManager.cs",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\classes\\ErrorMessageManager.cs",
-              "RelativeToolTip": "UI\\classes\\ErrorMessageManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T12:34:16.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ErrorMessage.cs",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\classes\\ErrorMessage.cs",
-              "RelativeDocumentMoniker": "UI\\classes\\ErrorMessage.cs",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\classes\\ErrorMessage.cs",
-              "RelativeToolTip": "UI\\classes\\ErrorMessage.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T10:22:55.759Z",
+              "Title": "AdminPanel.xaml",
+              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml",
+              "RelativeDocumentMoniker": "UI\\pages\\AdminPanel.xaml",
+              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml",
+              "RelativeToolTip": "UI\\pages\\AdminPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-18T08:48:48.39Z",
               "EditorCaption": ""
             },
             {
@@ -103,46 +56,9 @@
               "RelativeDocumentMoniker": "UI\\pages\\AdminPanel.xaml.cs",
               "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml.cs",
               "RelativeToolTip": "UI\\pages\\AdminPanel.xaml.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAYwBwAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAA0wDUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T07:08:47.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminPanel.xaml",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml",
-              "RelativeDocumentMoniker": "UI\\pages\\AdminPanel.xaml",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\pages\\AdminPanel.xaml",
-              "RelativeToolTip": "UI\\pages\\AdminPanel.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-07T05:12:31.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GreetingPage.xaml.cs",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\pages\\GreetingPage.xaml.cs",
-              "RelativeDocumentMoniker": "UI\\pages\\GreetingPage.xaml.cs",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\pages\\GreetingPage.xaml.cs",
-              "RelativeToolTip": "UI\\pages\\GreetingPage.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAwDMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T10:47:22.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\visualStudio\\Authorisation\\UI\\classes\\User.cs",
-              "RelativeDocumentMoniker": "UI\\classes\\User.cs",
-              "ToolTip": "C:\\visualStudio\\Authorisation\\UI\\classes\\User.cs",
-              "RelativeToolTip": "UI\\classes\\User.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T09:45:12.973Z",
+              "WhenOpened": "2025-12-18T08:41:40.838Z",
               "EditorCaption": ""
             }
           ]
